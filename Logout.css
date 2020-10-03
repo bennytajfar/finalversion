@@ -1,0 +1,14 @@
+.skul{
+    border: .5vh solid var(--green-main);
+    padding:5vh;
+    border-radius: 1vh;
+    background: linear-gradient(120deg,black,#aaa);
+}
+.skullogo{
+ width:25vw;
+ height: 25vh;
+}
+.end{
+    color:var(--pink-main);
+    font-size: x-large;
+}
