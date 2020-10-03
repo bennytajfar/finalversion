@@ -1,0 +1,105 @@
+
+.home{
+    width:98vw;
+    height:98vh;
+    border:.5vh solid #aaa;
+    border-radius: 1vh;
+    font-family: 'Orbitron', sans-serif;
+    color:#ccc;
+    display: grid;
+    place-items: center;
+}
+.logout{
+    display: flex;
+  text-align: center;
+  height:5vh;
+  border: none;
+  border-radius: 1vh;
+  background-color:var(--red-main);
+  color:black;
+  font-family: 'Orbitron', sans-serif;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+.signout{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    border-bottom: .5vh solid #aaa;
+    width:50vw;
+    padding:.5vw;
+    border-radius: 1vh;
+    box-shadow: .1vh .2vh 1vh .1vh ;
+}
+.title{
+    display: flex;
+    width:96vw;
+    border-radius: 1vh;
+    background: linear-gradient(120deg,black,var(--green-main));
+    box-shadow: .1vh .2vh 1vh .1vh ;
+    margin-top: 0;
+}
+.titlename{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    align-items: center;
+    padding: 1vh;
+}
+.span{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #ccc;
+    text-shadow: .3vh .3vh .3vh black;
+}
+.name{
+    text-transform: capitalize;
+    margin: .5vh;
+    font-size: larger;
+    letter-spacing: .2vh;
+}
+.lastseen{
+    color: black;
+    text-shadow: .1vh .3vh .3vh #ccc;
+}
+.avatar{
+    margin-right: 2vw;
+    display: inline;
+    width:12vh!important;
+    height:12vh!important;
+    border: solid 1vh #aaa;
+}
+.avatar:hover{
+    border: solid 1vh var(--green-main);
+}
+.burger{
+    display: flex;
+    align-items: center;
+}
+.burgericon{
+    font-size: 12vh!important;
+    color: black;
+
+    font-weight: bolder;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.inputavatar{
+    display:none;
+}
+
+.sidebarcontainer{
+    display: flex;
+    flex-direction: column;
+    max-height: 58vh;
+    overflow-y: scroll;
+    border-radius: 1vh;
+    box-shadow: .1vh .2vh 1vh .1vh ;
+    border: .5vh solid #aaa;
+    width:96vw;
+}
