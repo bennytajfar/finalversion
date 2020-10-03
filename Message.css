@@ -1,0 +1,28 @@
+.message{
+    background-size: cover;
+    width:95vw;
+    height:50vh;
+    opacity:.8;
+    padding:2vh;  
+    display: flex;
+    flex-direction: row;
+}
+
+.img{
+    width:30vw;
+    height: 30vh;
+    object-fit: contain;
+}
+.nam{
+    text-align: center;
+    font:x-small
+}
+.hold{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.canvas{
+border:1vh solid #aaa;
+}
