@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+.main{
+    width:98vw;
+    height:98vh;
+    border:.5vh solid #aaa;
+    border-radius: 1vh;
+    font-family: 'Orbitron', sans-serif;
+    color:#ccc;
+    display: grid;
+    place-items: center;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: .5vh solid #aaa;
+    width:96vw;
+    padding:1vh;
+    border-radius: 1vh;
+    box-shadow: .1vh .2vh 1vh .1vh ;
+}
+.header__logo{
+    font-size: xx-large;
+    text-shadow: .3vh .3vh .3vh #aaa;
+}
+.header__text{
+    color:var(--green-main)
+}
+.signinform{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    border: .5vh solid #aaa;
+    width:44vw;
+    padding:2vw;
+    border-radius: 1vh;
+    box-shadow: .1vh .2vh 1vh .1vh ;
+}
+.inputemail{
+    margin-bottom: 3vh;
+    height:5vh;
+    border: none;
+    border-radius: 1vh;
+    background:linear-gradient(120deg,var(--green-main),var(--pink-main));
+    color:black;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.inputpassword{
+    margin-bottom: 3vh;
+    height:5vh;
+    border: none;
+    border-radius: 1vh;
+    background:linear-gradient(120deg,var(--green-main),var(--pink-main));
+    color:black;
+    font-family: 'Orbitron', sans-serif;
+}
+::placeholder { 
+    color: var(--green-secondary);
+    opacity: 1; 
+  }
+
+  .login{
+      display: flex;
+    text-align: center;
+    margin-bottom: 3vh;
+    height:5vh;
+    border: none;
+    border-radius: 1vh;
+    background-color:var(--pink-main);
+    color:black;
+    font-family: 'Orbitron', sans-serif;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .button{
+    display: flex;
+    text-align: center;
+    margin-bottom: 3vh;
+    height:5vh;
+    border: none;
+    border-radius: 1vh;
+    background-color:var(--green-main);
+    color:black;
+    font-family: 'Orbitron', sans-serif;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    width:30vw;
+    margin: auto;
+    margin-top: 7vh;
+  }
+  .skullogo{
+      width:40vw;
+      height:30vh;
+      object-fit: contain;
+  }
+  .msg{
+    color:var(--green-main);
+    text-align: center;
+    display: flex;
+    text-align: center;
+    margin-bottom: 3vh;
+    height:5vh;
+    border: none;
+    border-radius: 1vh;
+    font-family: 'Orbitron', sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width:30vw;
+    margin: auto;
+    margin-top: 7vh;
+  
+  }
