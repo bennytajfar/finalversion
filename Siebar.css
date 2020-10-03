@@ -1,0 +1,42 @@
+.sidebar{
+    border-radius: 1vh;
+    background: linear-gradient(120deg,black,var(--pink-main)); 
+    border-radius: 1vh;
+    box-shadow: .1vh .2vh 1vh .1vh #ccc;
+    margin:.7vh;
+}
+.titlenamesidebar:hover {
+    background-color:#ccc;
+    opacity:.15;
+    cursor: pointer;
+}
+.titlenamesidebar{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    align-items: center;
+    padding: 1vh;
+}
+.spansidebar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: gold;
+    text-shadow: .5vh .3vh .3vh black;
+}
+.namesidebar{
+    text-transform: capitalize;
+    margin: .5vh;
+    font-size: x-small;
+    letter-spacing: .2vh;
+}
+.lastseensidebar{
+    font-size: xx-small;
+    color: var(--red-main);
+}
+.avatarsidebar{
+    margin-right: 2vw;
+    display: inline;
+    width:8vh!important;
+    height:8vh!important;
+}
